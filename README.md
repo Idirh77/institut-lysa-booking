@@ -1,3 +1,11 @@
+## 📸 Aperçu de l'application
+
+### Interface Client
+![Interface Client](./image_2fca62.png)
+
+### Base de données MySQL
+![Base de données](./image_2ef0e1.png)
+
 # 🌸 Institut Lys'A - Système de Réservation Full-Stack
 
 Ce projet est une application web complète permettant aux clients d'un institut de beauté de prendre rendez-vous en ligne. Elle inclut une interface client dynamique et un tableau de bord administrateur sécurisé.
