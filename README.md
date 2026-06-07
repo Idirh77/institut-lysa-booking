@@ -1,10 +1,13 @@
 ## 📸 Aperçu de l'application
 
 ### Interface Client
-![Interface Client](./image_2fca62.png)
+![Interface Client](./interface_client.png)
 
-### Base de données MySQL
-![Base de données](./image_2ef0e1.png)
+### Interface Admin
+![Interface Admin](./interface_admin.png)
+
+### Interface Base De Données
+![Base de données](./base_de_donnees.png)
 
 # 🌸 Institut Lys'A - Système de Réservation Full-Stack
 
