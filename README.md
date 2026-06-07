@@ -1,16 +1,29 @@
-# React + Vite
+# 🌸 Institut Lys'A - Système de Réservation Full-Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est une application web complète permettant aux clients d'un institut de beauté de prendre rendez-vous en ligne. Elle inclut une interface client dynamique et un tableau de bord administrateur sécurisé.
 
-Currently, two official plugins are available:
+## 🚀 Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Côté Client
+- **Sélection de prestations** : Choix dynamique parmi une liste de soins (Massages, Soins visage, etc.).
+- **Calcul automatique** : Mise à jour en temps réel de la durée totale et du prix.
+- **Formulaire de réservation** : Validation des coordonnées clients et envoi sécurisé vers la base de données.
 
-## React Compiler
+### Côté Administrateur
+- **Accès protégé** : Authentification par mot de passe pour accéder aux données sensibles.
+- **Gestion des RDV** : Visualisation de l'ensemble des réservations enregistrées dans la base MySQL.
+- **Interface Responsive** : Dashboard optimisé pour PC et Mobile avec Tailwind CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Stack Technique
 
-## Expanding the ESLint configuration
+- **Frontend** : React.js (Vite), Tailwind CSS v4, Lucide React (icônes).
+- **Backend** : PHP (API REST), PDO pour la sécurité SQL.
+- **Base de données** : MySQL (gérée via phpMyAdmin/XAMPP).
+- **Versionnage** : Git & GitHub.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Configuration
+
+1. **Cloner le projet** :
+   ```bash
+   git clone [https://github.com/Idirh77/institut-lysa-booking.git](https://github.com/Idirh77/institut-lysa-booking.git)
+   cd institut-lysa-booking
